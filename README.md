@@ -1,71 +1,92 @@
-# FORGE Strength Studio
-### Responsive Business Landing Page | The Sky Gen — Web Development Project 02
+<div align="center">
 
-A modern, responsive landing page concept for **FORGE Strength Studio**, a boutique strength-training studio in Clifton, Karachi. The website is designed to communicate a premium fitness experience through bold typography, a clean layout, clear service and pricing sections, and conversion-focused calls to action.
+# FORGE STRENGTH STUDIO
+
+### Strength is built here, not bought.
+
+**Responsive Business Landing Page · The Sky Gen — Web Development Project 02**
+
+[![Live Website](https://img.shields.io/badge/LIVE%20WEBSITE-Visit%20Site-ff4b24?style=for-the-badge)](https://forge-strength-studio.netlify.app/)
+[![GitHub Repository](https://img.shields.io/badge/GITHUB-View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan)
+
+*A bold, responsive landing page concept for a boutique strength-training studio in Clifton, Karachi, Pakistan.*
+
+</div>
 
 ---
 
+## Website Preview
+
+![FORGE Strength Studio — desktop homepage screenshot](screenshots/homepage-desktop.png)
+
+<p align="center"><em>FORGE Strength Studio — desktop homepage preview</em></p>
+
+> **Screenshot note:** The desktop screenshot is stored in this repository at `screenshots/homepage-desktop.png`, and this relative path makes it appear directly in the GitHub README. Add mobile and tablet captures to the same folder when available.
+
 ## Project Overview
 
-**Business concept:** A boutique strength-training studio offering structured training programs in a focused, supportive environment.
+**FORGE Strength Studio** is a modern business landing-page concept for a boutique strength-training studio. The design uses bold condensed headings, a dark athletic colour palette, vivid orange accents, and clear calls to action to present the brand and encourage visitors to explore its training programs.
 
-**Project goal:** Build a polished business landing page that presents the studio, explains its services and membership options, establishes trust through testimonials, and makes it easy for visitors to get in touch.
+| Project detail | Information |
+|---|---|
+| Business concept | Boutique strength-training studio |
+| Location concept | Clifton, Karachi, Pakistan |
+| Project | The Sky Gen — Web Development Project 02 |
+| Website | [forge-strength-studio.netlify.app](https://forge-strength-studio.netlify.app/) |
+| Source code | [GitHub repository](https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan) |
 
 ## Features
 
-- **Responsive navigation** with a mobile-friendly menu and section links
-- **Hero section** with a clear headline and call to action
-- **Services section** with six training/service cards
-- **Pricing section** with three membership plans and a highlighted recommended plan
-- **Testimonials carousel** to showcase customer feedback
-- **FAQ accordion** with six frequently asked questions
-- **Contact section** with a front-end validated form and embedded Google Map
-- **Footer** with business information and quick links
-- **Responsive layout** designed for desktop, tablet, and mobile screens
-- **Lightweight interactions** powered by vanilla JavaScript
+- Responsive navigation with section links
+- Hero section with prominent calls to action
+- Training and service cards with interactive styling
+- Three membership/pricing options
+- Testimonials slider
+- FAQ accordion
+- Contact section with form validation and embedded Google Map
+- Responsive layouts for desktop, tablet, and mobile screens
+- JavaScript-powered interactive components
 
-> Note: The contact form is front-end functionality. It will not send or store enquiries unless a backend or form-handling service is connected.
+> **Form functionality:** The contact form currently provides front-end interaction/validation only. Enquiries will not be sent or stored unless a backend or form-handling service is connected.
 
 ## Technology Stack
 
-- HTML5
-- Tailwind CSS 3
-- Vanilla JavaScript
-- Google Maps Embed
-- Git and GitHub
-- Netlify (deployment option)
+- **HTML5** — semantic page structure
+- **Tailwind CSS** — styling and responsive layout
+- **JavaScript** — interactive page behaviour
+- **Google Maps Embed** — location context
+- **Git & GitHub** — version control and source hosting
+- **Netlify** — static website deployment
 
-## Project Structure
+## Repository Structure
 
 ```text
-forge-landing/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── src/
-│   └── input.css
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── fonts/
-│   ├── anton-latin-400-normal.woff2
-│   ├── inter-latin-400-normal.woff2
-│   ├── inter-latin-600-normal.woff2
-│   └── inter-latin-700-normal.woff2
-└── screenshots/
-    ├── mobile-375.png
-    ├── tablet-768.png
-    └── desktop-1440.png
+tsg-webdev-p02-anamkhan/
+├── README.md
+├── screenshots/
+│   └── homepage-desktop.png
+└── forge-landing/
+    ├── index.html
+    ├── package.json
+    ├── tailwind.config.js
+    ├── src/
+    │   └── input.css
+    ├── css/
+    │   └── styles.css
+    ├── js/
+    │   └── script.js
+    └── fonts/
+        ├── anton-latin-400-normal.woff2
+        ├── inter-latin-400-normal.woff2
+        ├── inter-latin-600-normal.woff2
+        └── inter-latin-700-normal.woff2
 ```
-
-*The screenshot files listed above should be added to the `screenshots/` folder after capturing them at the specified viewport sizes.*
 
 ## Run Locally
 
-1. Install [Node.js](https://nodejs.org/) if it is not already installed.
-2. Open a terminal in the `forge-landing` project directory.
-3. Install the project dependencies:
+1. Install [Node.js](https://nodejs.org/).
+2. Open a terminal inside the `forge-landing` directory.
+3. Install dependencies:
 
    ```bash
    npm install
@@ -77,52 +98,45 @@ forge-landing/
    npm run build
    ```
 
-5. Start the local static server:
+5. Run the local server using a script available in `package.json`, or open the project with a local development server such as VS Code Live Server.
 
-   ```bash
-   npm run serve
-   ```
+## Live Deployment & Source Code
 
-6. Open the local URL shown in the terminal.
+- **Live website:** https://forge-strength-studio.netlify.app/
+- **GitHub repository:** https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan
 
-## Deployment
+The links above point to the deployed website and its source repository.
 
-This project can be deployed using Netlify or another static hosting provider.
+## Responsive Screenshots
 
-- **Live website:** `ADD_YOUR_DEPLOYED_WEBSITE_URL`
-- **GitHub repository:** `ADD_YOUR_GITHUB_REPOSITORY_URL`
+| Viewport | File | Status |
+|---|---|---|
+| Desktop | `screenshots/homepage-desktop.png` | Included |
+| Mobile — 375 px | `screenshots/mobile-375.png` | Add screenshot |
+| Tablet — 768 px | `screenshots/tablet-768.png` | Add screenshot |
 
-Replace the placeholders above with your actual public links after deployment.
+To add the missing screenshots, save them in the `screenshots/` folder using the filenames above. Then add them to GitHub in the same commit as the README updates.
 
-## Screenshots
+## Final Quality Checklist
 
-Add screenshots of the responsive website to the `screenshots/` folder and update the links below.
+- [ ] Test navigation and interactive elements.
+- [ ] Check desktop, tablet, and mobile layouts.
+- [ ] Open the live website in a private/incognito browser window.
+- [ ] Run a Lighthouse audit on the live website.
+- [ ] Add mobile and tablet screenshots.
+- [ ] Verify the public repository and live-site links.
 
-| Viewport | Screenshot |
-|---|---|
-| Mobile — 375 px | `screenshots/mobile-375.png` |
-| Tablet — 768 px | `screenshots/tablet-768.png` |
-| Desktop — 1440 px | `screenshots/desktop-1440.png` |
-
-## Quality Checks
-
-Before submission:
-
-- [ ] Test navigation and all interactive elements.
-- [ ] Check the layout at mobile, tablet, and desktop widths.
-- [ ] Confirm the deployed site loads from a public/incognito browser session.
-- [ ] Run Lighthouse in Chrome DevTools and save the actual report as a PDF or screenshot.
-- [ ] Add the three responsive screenshots.
-- [ ] Replace the website and repository URL placeholders above.
-- [ ] Verify all links before submitting.
-
-**Lighthouse note:** Add your actual Lighthouse results after running the audit on the deployed website. Do not report estimated scores as measured results.
+**Performance reporting:** Lighthouse scores are intentionally not listed here; add the actual measured results after running the audit in Chrome DevTools.
 
 ## Credits
 
-- Third-party images, icons, fonts, and other assets should be credited to their original creators/providers where applicable.
-- Google Maps is embedded for location context.
+Third-party images, icons, fonts, and other assets should be credited to their original creators or providers where required. Google Maps is embedded for location context.
 
-## License
+---
 
-Created as an educational web development project for The Sky Gen Project 02.
+<div align="center">
+
+**FORGE STRENGTH STUDIO**  
+*Build strength. Build consistency.*
+
+</div>
