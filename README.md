@@ -1,70 +1,72 @@
-<div align="center">
+# FORGE Strength Studio 💪
 
-# FORGE STRENGTH STUDIO
+**A bold, responsive landing page for a modern strength-training studio.**
 
-### Strength is built here, not bought.
+[![Live Website](https://img.shields.io/badge/Live%20Website-Visit%20Site-ff4b24?style=for-the-badge)](https://forge-strength-studio.netlify.app/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github)](https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan)
 
-**Responsive Business Landing Page · The Sky Gen — Web Development Project 02**
+## 🔗 Project Links
 
-[![Live Website](https://img.shields.io/badge/LIVE%20WEBSITE-Visit%20Site-ff4b24?style=for-the-badge)](https://forge-strength-studio.netlify.app/)
-[![GitHub Repository](https://img.shields.io/badge/GITHUB-View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan)
+- **Live website:** https://forge-strength-studio.netlify.app/
+- **GitHub repository:** https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan
 
-*A bold, responsive landing page concept for a boutique strength-training studio in Clifton, Karachi, Pakistan.*
+## 📸 Website Preview
 
-</div>
+### Desktop Homepage
 
----
+![FORGE Strength Studio desktop homepage](screenshots/homepage-desktop.png)
 
-## Website Preview
+## ✨ Features
 
-![FORGE Strength Studio — desktop homepage screenshot](screenshots/homepage-desktop.png)
+- Responsive business landing page for desktop, tablet, and mobile layouts
+- Navigation with section links and clear calls to action
+- Hero section with bold brand messaging and trial-booking actions
+- Program, method, pricing, member, FAQ, and contact content sections
+- Interactive page elements powered by JavaScript
+- Dark visual style with vivid orange accents and strong typography
+- Built CSS assets included for static deployment
 
-<p align="center"><em>FORGE Strength Studio — desktop homepage preview</em></p>
+## 🧰 Tech Stack
 
-> **Screenshot note:** The desktop screenshot is stored in this repository at `screenshots/homepage-desktop.png`, and this relative path makes it appear directly in the GitHub README. Add mobile and tablet captures to the same folder when available.
+- HTML5
+- CSS3 / Tailwind CSS
+- JavaScript
+- Google Fonts/local WOFF2 font assets
+- Netlify for deployment
 
-## Project Overview
+## 🚀 Lighthouse Audit
 
-**FORGE Strength Studio** is a modern business landing-page concept for a boutique strength-training studio. The design uses bold condensed headings, a dark athletic colour palette, vivid orange accents, and clear calls to action to present the brand and encourage visitors to explore its training programs.
+The live website was audited in Chrome DevTools using Lighthouse 13.4.1 on **October 13, 2026**. The supplied report was captured in desktop emulation during an initial page load; results can vary between runs and devices.
 
-| Project detail | Information |
-|---|---|
-| Business concept | Boutique strength-training studio |
-| Location concept | Clifton, Karachi, Pakistan |
-| Project | The Sky Gen — Web Development Project 02 |
-| Website | [forge-strength-studio.netlify.app](https://forge-strength-studio.netlify.app/) |
-| Source code | [GitHub repository](https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan) |
+| Category | Score |
+|---|---:|
+| Performance | **99/100** |
+| Accessibility | **100/100** |
+| Best Practices | **100/100** |
+| SEO | **100/100** |
 
-## Features
+### Key Performance Metrics
 
-- Responsive navigation with section links
-- Hero section with prominent calls to action
-- Training and service cards with interactive styling
-- Three membership/pricing options
-- Testimonials slider
-- FAQ accordion
-- Contact section with form validation and embedded Google Map
-- Responsive layouts for desktop, tablet, and mobile screens
-- JavaScript-powered interactive components
+| Metric | Result |
+|---|---:|
+| First Contentful Paint (FCP) | 0.4 s |
+| Largest Contentful Paint (LCP) | 0.9 s |
+| Total Blocking Time (TBT) | 30 ms |
+| Cumulative Layout Shift (CLS) | 0 |
+| Speed Index | 0.8 s |
 
-> **Form functionality:** The contact form currently provides front-end interaction/validation only. Enquiries will not be sent or stored unless a backend or form-handling service is connected.
+### Lighthouse Report Screenshot
 
-## Technology Stack
+![Lighthouse audit results: Performance 99, Accessibility 100, Best Practices 100, SEO 100](screenshots/lighthouse-report.png)
 
-- **HTML5** — semantic page structure
-- **Tailwind CSS** — styling and responsive layout
-- **JavaScript** — interactive page behaviour
-- **Google Maps Embed** — location context
-- **Git & GitHub** — version control and source hosting
-- **Netlify** — static website deployment
-
-## Repository Structure
+## 📂 Project Structure
 
 ```text
 tsg-webdev-p02-anamkhan/
 ├── README.md
 ├── screenshots/
-│   └── homepage-desktop.png
+│   ├── homepage-desktop.png
+│   └── lighthouse-report.png
 └── forge-landing/
     ├── index.html
     ├── package.json
@@ -82,55 +84,45 @@ tsg-webdev-p02-anamkhan/
         └── inter-latin-700-normal.woff2
 ```
 
-## Run Locally
+## 💻 Run Locally
 
-1. Install [Node.js](https://nodejs.org/).
-2. Open a terminal inside the `forge-landing` directory.
+1. Install [Node.js](https://nodejs.org/) if you want to rebuild the CSS.
+2. Open a terminal in the `forge-landing` directory.
 3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Build the CSS:
+4. Rebuild the CSS when needed:
 
    ```bash
    npm run build
    ```
 
-5. Run the local server using a script available in `package.json`, or open the project with a local development server such as VS Code Live Server.
+5. Open `index.html` with VS Code Live Server or another local static server.
 
-## Live Deployment & Source Code
+The prebuilt `css/styles.css` is included, so the page can be previewed without rebuilding the CSS first.
 
-- **Live website:** https://forge-strength-studio.netlify.app/
-- **GitHub repository:** https://github.com/anamkhan2007/tsg-webdev-p02-anamkhan
+## 📱 Responsive Screenshots
 
-The links above point to the deployed website and its source repository.
+- **Desktop:** `screenshots/homepage-desktop.png` — included
+- **Lighthouse report:** `screenshots/lighthouse-report.png` — included
+- **Mobile and tablet screenshots:** add these after capturing the page at your target viewport sizes.
 
-## Responsive Screenshots
+## ✅ Submission Checklist
 
-| Viewport | File | Status |
-|---|---|---|
-| Desktop | `screenshots/homepage-desktop.png` | Included |
-| Mobile — 375 px | `screenshots/mobile-375.png` | Add screenshot |
-| Tablet — 768 px | `screenshots/tablet-768.png` | Add screenshot |
+- [x] Live website link included
+- [x] GitHub repository link included
+- [x] Desktop homepage screenshot embedded in this README
+- [x] Lighthouse report screenshot embedded in this README
+- [x] Lighthouse scores and key metrics documented
+- [ ] Add mobile and tablet screenshots if required for submission
+- [ ] Confirm all interactive sections on desktop and mobile
 
-To add the missing screenshots, save them in the `screenshots/` folder using the filenames above. Then add them to GitHub in the same commit as the README updates.
+## 🙌 Credits
 
-## Final Quality Checklist
-
-- [ ] Test navigation and interactive elements.
-- [ ] Check desktop, tablet, and mobile layouts.
-- [ ] Open the live website in a private/incognito browser window.
-- [ ] Run a Lighthouse audit on the live website.
-- [ ] Add mobile and tablet screenshots.
-- [ ] Verify the public repository and live-site links.
-
-**Performance reporting:** Lighthouse scores are intentionally not listed here; add the actual measured results after running the audit in Chrome DevTools.
-
-## Credits
-
-Third-party images, icons, fonts, and other assets should be credited to their original creators or providers where required. Google Maps is embedded for location context.
+Third-party images, icons, fonts, and other assets should be credited to their original creators/providers where required.
 
 ---
 
